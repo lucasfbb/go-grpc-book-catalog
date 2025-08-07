@@ -14,7 +14,6 @@ Foi desenvolvido como projeto de estudo para praticar **Go**, **Protocol Buffers
 ## 📂 Estrutura do Projeto
 
 <pre> 
-
 catalogo-livros/
 ├── proto/ # Definição e código gerado do serviço gRPC
 │ ├── livros.proto
@@ -29,7 +28,6 @@ catalogo-livros/
 ├── go.sum
 ├── Dockerfile
 └── docker-compose.yml
-
 </pre>
 
 ## ⚙️ Como Rodar Localmente
