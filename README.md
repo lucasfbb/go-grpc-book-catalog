@@ -12,23 +12,22 @@ Foi desenvolvido como projeto de estudo para praticar **Go**, **Protocol Buffers
 ---
 
 ## 📂 Estrutura do Projeto
-
-<pre> 
-catalogo-livros/
-├── proto/ # Definição e código gerado do serviço gRPC
-│ ├── livros.proto
-│ ├── livros.pb.go
-│ └── livros_grpc.pb.go
-├── server/ # Implementação do servidor gRPC
-│ ├── main.go
-│ └── handler.go
-├── client/ # Cliente gRPC de exemplo
-│ └── main.go
-├── go.mod
-├── go.sum
-├── Dockerfile
-└── docker-compose.yml
-</pre>
+```bash
+  catalogo-livros/
+  ├── proto/ # Definição e código gerado do serviço gRPC
+  │ ├── livros.proto
+  │ ├── livros.pb.go
+  │ └── livros_grpc.pb.go
+  ├── server/ # Implementação do servidor gRPC
+  │ ├── main.go
+  │ └── handler.go
+  ├── client/ # Cliente gRPC de exemplo
+  │ └── main.go
+  ├── go.mod
+  ├── go.sum
+  ├── Dockerfile
+  └── docker-compose.yml
+```
 
 ## ⚙️ Como Rodar Localmente
 
