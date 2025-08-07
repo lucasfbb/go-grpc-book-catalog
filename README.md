@@ -68,6 +68,13 @@ Saída esperada:
   Livro ID=1: Clean Code (Robert C. Martin, 2008)
   ```
 
+## 🐳 Como Rodar com Docker
+  ```bash
+  docker compose up --build
+  ```
+
+O servidor será iniciado na porta 50051.
+
 ## Testando com grpcurl
 
 Instale o <a href="https://github.com/fullstorydev/grpcurl/releases">grpcurl</a> e execute:
