@@ -1,0 +1,30 @@
+syntax = "proto3";
+package livros;
+option go_package = "catalogo-livros/proto;proto";
+
+service LivroService {
+  rpc ListarLivros (Vazio) returns (ListaLivros);
+  rpc AdicionarLivro (Livro) returns (LivroResposta);
+  rpc BuscarLivro (LivroID) returns (Livro);
+}
+
+message Vazio {}
+
+message LivroID {
+  int32 id = 1;
+}
+
+message Livro {
+  int32 id = 1;
+  string titulo = 2;
+  string autor = 3;
+  int32 ano = 4;
+}
+
+message ListaLivros {
+  repeated Livro livros = 1;
+}
+
+message LivroResposta {
+  string mensagem = 1;
+}
